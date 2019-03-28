@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:text="Belajar TextView Yuk!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:text="Size-nya Kecilan dikit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:text="Teks dengan Warna Hijau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:textColor="#4CAF50" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:text="Lebar banget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:background="#F44336"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:text="Ini adalah contoh sederhana dalam penggunaan widget TextView di Android Studio dibuat oleh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:text="ahyarganteng.com"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"/>
+
+</LinearLayout>
